@@ -33,3 +33,7 @@ window.addEventListener('load', () => {
 window.addEventListener('click', () => {
   giveNewReason()
 })
+
+window.addEventListener('keypress', () => {
+  giveNewReason()
+})
