@@ -18,7 +18,7 @@ const reasons = [
   'Era già rotto',
   'Italia morta',
   'Succede spesso',
-  'Si, ma solo nei giorni dispari'
+  'Sì, ma solo nei giorni dispari'
 ]
 
 function giveNewReason() {
