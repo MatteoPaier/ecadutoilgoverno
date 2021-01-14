@@ -23,6 +23,8 @@ div#centering {
 h1#title {
   font-weight: 900;
   font-size: 6em;
+  max-width: 80%;
+  text-align: center;
 }
 
 p#footer {
