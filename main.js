@@ -21,7 +21,15 @@ const reasons = [
   'Si, ma solo nei giorni dispari'
 ]
 
-window.addEventListener('load', () => {
+function giveNewReason() {
   document.body.style.backgroundColor = randomPastel()
   document.querySelector('#title').innerHTML = choose(reasons)
+}
+
+window.addEventListener('load', () => {
+  giveNewReason()
+})
+
+window.addEventListener('click', () => {
+  giveNewReason()
 })
