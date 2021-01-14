@@ -7,10 +7,15 @@ html, body {
   font-family: 'Roboto', sans-serif;
 }
 
+a {
+  color: #000000;
+}
+
 div#centering {
   height: 100%;
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -24,12 +29,17 @@ p#footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  font-weight: 400;
   font-size: .65em;
   text-align: center;
   opacity: 50%;
 }
 
-p#footer a {
-  color: #000000;
+p#policy {
+  width: 40%;
+  line-height: 2em;
+  text-align: justify;
+}
+
+a#policygoback {
+  font-size: 1.5em;
 }
