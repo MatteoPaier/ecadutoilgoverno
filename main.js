@@ -16,7 +16,9 @@ const reasons = [
   'Sciok',
   'Shock',
   'Era già rotto',
-  'Italia morta'
+  'Italia morta',
+  'Succede spesso',
+  'Si, ma solo nei giorni dispari'
 ]
 
 window.addEventListener('load', () => {
