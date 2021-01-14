@@ -3,8 +3,7 @@ function randomPastel() {
 }
 
 function choose(choices) {
-  var index = Math.floor(Math.random() * choices.length)
-  return choices[index]
+  return choices[Math.floor(Math.random() * choices.length)]
 }
 
 const reasons = [
