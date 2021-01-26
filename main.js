@@ -7,9 +7,9 @@ function choose(choices) {
 }
 
 const reasons = [
-  'No',
-  'Non ancora',
-  'Ancora no',
+  'Sì',
+  'Mi sa di sì',
+  'Così pare',
   'Ha stato Renzi',
   'Ha stato Renzie',
   'Io non l\'ho toccato',
@@ -18,7 +18,7 @@ const reasons = [
   'Era già rotto',
   'Italia morta',
   'Succede spesso',
-  'Sì, ma solo nei giorni dispari'
+  'Sì, non solo nei giorni dispari'
 ]
 
 function giveNewReason() {
