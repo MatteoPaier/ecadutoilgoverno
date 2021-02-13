@@ -7,18 +7,10 @@ function choose(choices) {
 }
 
 const reasons = [
-  'No',
-  'Non ancora',
-  'Ancora no',
-  'Ha stato Renzi',
-  'Ha stato Renzie',
-  'Io non l\'ho toccato',
-  'Sciok',
-  'Shock',
-  'Era già rotto',
-  'Italia morta',
-  'Succede spesso',
-  'Sì, ma solo nei giorni dispari'
+    "Rimesso a posto",
+    "Nessuno ha visto niente",
+    "Pare reggere... forse",
+    "Vediamo questo quanto regge"
 ]
 
 function giveNewReason() {
